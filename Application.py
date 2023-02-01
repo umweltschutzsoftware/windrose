@@ -6,6 +6,10 @@ import io
 import os
 import matplotlib.pyplot as plt
 
+st.set_page_config(
+        page_title="R&H Windrose",
+)
+
 st.write(
   '''# Windrose erstellen
 Bei Upload einer *.akterm Datei wird die Häufigkeitsverteilung der Windgeschwindigkeit und Windrichtung als Windrose erzeugt und zum Download angeboten.
